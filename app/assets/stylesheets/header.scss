@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  height: auto;
+  
+  .image-container {
+    width: 24%;
+    top: 60px;
+    position: absolute;
+    
+    &.left {
+      left: -30px;
+      transform: rotateZ(-45deg);
+    }
+    
+    &.right {
+      right: -30px;
+      transform: rotateZ(45deg);
+    }
+    
+    .image {
+     width: 100%; 
+    }
+  }
+}
